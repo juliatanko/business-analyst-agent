@@ -16,7 +16,7 @@ Use this reference when shaping work for iterative delivery, refining a backlog,
 
 ## Readiness Assessment
 
-Classify the work as **Idea**, **Discovery**, **Planning**, or **Ready for development**. Explain the evidence and what must be resolved to advance. For **Idea** or early **Discovery** work, use [Interactive Discovery](./interactive-discovery.md) when the user requests it or key decisions prevent a useful next step; do not turn every early idea into a long interview. Do not label work ready while critical scope or acceptance questions remain unresolved. Readiness criteria should fit the team's context rather than serve as a universal gate.
+Classify the work as **Idea**, **Discovery**, **Planning**, or **Ready for development**. Explain the evidence and what must be resolved to advance. Before recommending a project plan or readiness to implement, give a clarity checkpoint for any unresolved item that could change scope, sequencing, cost, risk, acceptance, or authority. State whether the work can proceed, proceed with conditions, or should wait on a critical decision. A plan can include discovery tasks and provisional ranges; do not present these as an approved execution baseline. For **Idea** or early **Discovery** work, use [Interactive Discovery](./interactive-discovery.md) when the user requests it or key decisions prevent a useful next step; do not turn every early idea into a long interview. Do not label work ready while critical scope or acceptance questions remain unresolved. Readiness criteria should fit the team's context rather than serve as a universal gate.
 
 ## User Stories
 

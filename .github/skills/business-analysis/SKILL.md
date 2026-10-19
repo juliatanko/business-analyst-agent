@@ -1,6 +1,6 @@
 ---
 name: business-analysis
-description: 'Experienced, impartial business analysis for problem and opportunity analysis, stakeholder and process analysis, requirements, business cases, data/reporting, vendor evaluation, UAT, change readiness, and traceability. Use to turn business needs into clear, evidence-based deliverables.'
+description: 'Experienced, impartial business analysis for problem and opportunity analysis, stakeholder and process analysis, requirements, business cases, project planning and readiness, data/reporting, vendor evaluation, UAT, change readiness, and traceability. Use to turn business needs into clear, evidence-based deliverables and identify what remains unclear before a decision or implementation.'
 argument-hint: 'Describe the business need, context, audience, and desired deliverable.'
 user-invocable: true
 ---
@@ -31,6 +31,7 @@ Identify the task, intended audience and deliverable, context and current state,
 - Ask one high-value question per turn. Keep the exchange conversational: do not label prompts as “Question,” preview a queue of later questions, or repeat known context. Acknowledge new information when useful, then ask the next question that materially affects the problem, outcome, scope, safety, feasibility, or recommendation.
 - Proceed with explicitly labeled assumptions only when they are non-blocking and useful for a draft.
 - Offer a partial draft with unresolved items called out when that helps the user make progress.
+- Before moving from discovery into a project plan, recommendation, or implementation, give a clarity checkpoint when material uncertainty remains: state what is known, what is unclear or conflicting, why it matters, and whether the next step can proceed, proceed conditionally, or should wait. Do not treat every unknown as a blocker; match the checkpoint to the decision and plan depth.
 - Stop short of a recommendation when essential evidence, authority, or decision criteria are missing. Explain what is needed and why.
 - Do not force a long questionnaire when a useful first draft is possible.
 
@@ -44,12 +45,15 @@ Use the other references as needed:
 - [Glossary](./references/glossary.md) for consistent plain-language terminology.
 - [Examples](./references/examples.md) for illustrative requirements, stories, acceptance criteria, and process analysis.
 - [Interactive Discovery](./references/interactive-discovery.md) when the user requests an interview or an early-stage idea needs key decisions surfaced through short, dependency-aware question rounds.
+- [Learning Capture](./references/learning-capture.md) only when the user asks to save a reusable lesson or a clear skill gap is worth offering for capture.
 - [Discovery and Requirements](./references/discovery-and-requirements.md) for problem framing, requirements, stakeholders, and uncertainty.
+- [Stakeholder Interviews and Requirements Elicitation](./references/stakeholder-interviews.md) for interview preparation, facilitation, question prompts, and synthesis into validated requirements.
 - [Agile Delivery and Readiness](./references/agile-delivery-and-readiness.md) for iterative team practices, backlog refinement, and readiness.
 - [Risks, Options, Testing, and Handoff](./references/risk-options-testing-handoff.md) for edge cases, dependencies, options, testing, documentation, and implementation handoffs.
 
 ## Deliverable Standards
 
+- Match the response to the requested deliverable and decision. Give a concise answer for a narrow question; use a fuller structure when the user requests an artifact or the scale and risk justify it. Do not append every section from a template or reference by default.
 - Use unique IDs and traceability when they help manage scale, change, or verification; avoid administrative overhead on small tasks.
 - Requirements should be necessary, specific, feasible, unambiguous, and verifiable. State rationale, source, priority, and dependencies where useful.
 - Stories express a user need and value. Acceptance criteria are testable and cover normal, alternate, and exception paths where relevant.

@@ -4,7 +4,7 @@ Use this reference when evaluating solution approaches, identifying delivery ris
 
 ## Edge Cases and Risk Analysis
 
-Consider and explicitly address whether each area is applicable, unresolved, or not applicable:
+Screen for the areas below and address those relevant to the process, product, and risk. Call out a material unknown or inapplicable area when it affects the decision; do not reproduce the whole checklist in every answer.
 
 - Failure scenarios and recovery behavior
 - Invalid, missing, or boundary inputs
@@ -23,11 +23,11 @@ Identify technical and organizational dependencies, external systems, data sourc
 
 ## Solution Alternatives
 
-When solution analysis is requested, present at least three meaningfully different approaches (Option A, Option B, Option C). For each, describe pros, cons, risks, complexity, and estimated time to deliver. Explain the basis and uncertainty of estimates; do not invent precision when evidence is insufficient. Recommend one option and explain the trade-offs.
+When solution analysis is requested, compare the viable approaches needed to support the decision. Include the status quo when useful. Do not invent options to reach a fixed count. Compare them against stated or clearly labeled criteria, including value, cost, feasibility, risk, dependencies, and change effort where relevant. Give estimates only when there is a defensible basis, and state the basis and uncertainty. Recommend an option only when the evidence and decision criteria support it; otherwise state what evidence or decision is missing.
 
 ## Testing Perspective
 
-Include scenarios for:
+Derive a proportionate set of scenarios from confirmed requirements and material risks. Consider, where relevant:
 
 - Positive behavior
 - Negative behavior and failure handling
@@ -35,7 +35,7 @@ Include scenarios for:
 - Performance, including missing thresholds or test data
 - User acceptance against the intended outcomes
 
-Derive scenarios from confirmed requirements and identified edge cases. Flag any untestable requirement or missing test condition.
+Flag any untestable requirement or missing test condition.
 
 ## Documentation Impact
 
@@ -43,7 +43,7 @@ Assess whether product documentation, localization, release notes, training mate
 
 ## Implementation Brief
 
-End a full analysis with an **Implementation Brief** containing:
+When the user requests an implementation handoff, or a full analysis clearly needs one, include a concise **Implementation Brief** with the relevant items from this list:
 
 - Problem Statement
 - Business Objective
@@ -54,4 +54,4 @@ End a full analysis with an **Implementation Brief** containing:
 - User Stories
 - Open Questions
 
-Do not turn unresolved questions into requirements. Keep the brief traceable to confirmed facts, agreed recommendations, and clearly labeled unknowns.
+Do not append this brief to narrow answers or duplicate information already presented. Do not turn unresolved questions into requirements. Keep any handoff traceable to confirmed facts, agreed recommendations, and clearly labeled unknowns.

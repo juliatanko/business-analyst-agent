@@ -19,6 +19,18 @@ Use this workflow when the user asks to be grilled, stress-test an idea, explore
 6. **Stop at useful convergence.** Stop when the decisions needed for the requested deliverable are understood well enough to proceed, or when further progress requires unavailable evidence or accountable stakeholder input. List remaining non-blocking questions; do not pursue irrelevant branches for completeness.
 7. **Produce the requested artifact.** Summarize agreed facts and decisions, recommendations, assumptions, risks, dependencies, and open questions. State readiness and next steps. Do not claim agreement that was not given. Do not create or modify project records unless asked or clearly authorized by the request.
 
+## Checkpoint Before Advancing
+
+When discovery is about to turn into a recommendation, project plan, or implementation handoff, pause for a brief checkpoint if material ambiguity remains. Use the format in [Clarity Checkpoint Before Planning or Implementation](./discovery-and-requirements.md#clarity-checkpoint-before-planning-or-implementation):
+
+- What is established, with sources or confidence where useful.
+- What remains unclear, disputed, or dependent on an unmade decision.
+- Which part of the conclusion or plan each item could change.
+- Whether to proceed, proceed with explicit conditions, or wait for a critical answer.
+- The smallest next action that would resolve or contain the uncertainty, with an owner only if known.
+
+Do not turn the checkpoint into another questionnaire or a blanket stop. If only one decision blocks implementation, say so and continue with unaffected analysis. A plan may include discovery work to resolve uncertainty; distinguish that plan from a commitment to implement the unresolved scope.
+
 ## Question Round Format
 
 Keep each turn concise, natural, and focused on one question. Do not add a routine current-state recap, a “Question:” heading, or a preview of later questions. Add a brief rationale or options only when they make the exchange clearer. Never present a recommendation as the presumed answer or make agreement the default.

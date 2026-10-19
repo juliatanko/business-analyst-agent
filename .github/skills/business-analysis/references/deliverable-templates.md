@@ -170,3 +170,22 @@ Include communication, training, documentation, support model, access, monitorin
 | Change ID/date | Requested change | Rationale/source | Impact assessed | Decision/authority/status | Follow-up |
 |---|---|---|---|---|---|
 | CHG-001 | [change] | [source] | [scope/tests/dependencies] | [not assumed] | [items] |
+
+## 14. Project Plan and Clarity Checkpoint
+
+- **Planning purpose / horizon:** [discovery plan, provisional project plan, or execution baseline; period covered]
+- **Business outcome and measures:** [confirmed objective, baseline/target or unknown]
+- **Scope / out of scope:** [agreed boundaries and exclusions]
+- **Phases and milestones:** [outcome, key activities, dependency, date/range and basis]
+- **Decision points / conditions:** [decision needed, decision role if known, latest useful point, affected work]
+- **Risks and dependencies:** [cause/event/effect, impact, response, owner/status if known]
+- **Assumptions and confidence:** [assumption, basis, what changes if false]
+- **Resources and estimates:** [only if supplied or defensibly estimated; state basis and uncertainty]
+- **Readiness status:** [proceed / proceed with conditions / wait on a critical decision, with rationale]
+- **Next actions:** [smallest useful actions, owners only when known]
+
+| Material unknown or conflict | What is known | What remains unclear | Why it matters | Resolution action / owner | Needed before |
+|---|---|---|---|---|---|
+| [topic] | [evidence] | [question] | [scope, approach, cost, sequence, risk, acceptance, or authority affected] | [action / known owner] | [phase or decision] |
+
+Use a provisional plan to organize discovery when the execution approach is not yet settled. Do not label it an approved baseline or imply implementation is authorized unless that status is confirmed.

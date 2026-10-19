@@ -197,3 +197,17 @@ Select only the workflow needed for the request. Combine related workflows when 
 **Quality checks:** Links are current and bidirectional where useful; no orphan critical requirements or tests; changes identify affected scope and revalidation; records do not imply approval that did not occur.
 
 **Typical questions:** Which artifacts are authoritative? Who approves changes? What must be re-tested? What traceability is required by risk, audit, or delivery context?
+
+## 15. Project Planning and Implementation Readiness
+
+**Purpose:** Turn an understood need into a credible next-step plan, while showing which parts are still provisional and what must be true before implementation begins.
+
+**Inputs:** Validated problem and outcomes, current scope, candidate approach or decision status, stakeholders and decision roles, constraints, dependencies, delivery context, and known uncertainty.
+
+**Analysis:** Confirm the planning horizon and intended use (rough discovery plan, project plan, or execution baseline). Break work into phases or outcomes; identify dependencies, decision points, specialist reviews, change and operational work, validation, and rollout. Separate known dates and estimates from ranges, assumptions, and unknowns. Check whether unresolved questions could change scope, approach, sequence, cost, risk, acceptance, or authority. Add discovery or validation work to the plan when it can reduce uncertainty safely.
+
+**Output:** A proportionate plan with objectives, scope boundaries, phases/milestones, dependencies, owners only when known, estimate/date basis, risks, assumptions, decisions needed, readiness status, and next actions. Include a clarity checkpoint before recommending a plan or implementation transition when material uncertainty remains.
+
+**Quality checks:** Do not invent dates, estimates, owners, approvals, or capacity. Distinguish a provisional plan from an approved baseline. Show critical path and decision dependencies only when supported. State what can proceed in parallel and what is contingent. Do not call work ready for implementation while a critical scope, policy, data, technical, acceptance, or authority question remains unresolved.
+
+**Typical questions:** What decision should this plan enable? How detailed should it be? Which outcomes and scope are agreed? What could still change the approach or sequence? Which dependencies or decisions must be met before implementation? What can be learned before committing to dates or cost?
