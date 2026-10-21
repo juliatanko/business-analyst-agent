@@ -32,6 +32,7 @@ Identify the task, intended audience and deliverable, context and current state,
 - Proceed with explicitly labeled assumptions only when they are non-blocking and useful for a draft.
 - Offer a partial draft with unresolved items called out when that helps the user make progress.
 - Before moving from discovery into a project plan, recommendation, or implementation, give a clarity checkpoint when material uncertainty remains: state what is known, what is unclear or conflicting, why it matters, and whether the next step can proceed, proceed conditionally, or should wait. Do not treat every unknown as a blocker; match the checkpoint to the decision and plan depth.
+- In interactive discovery, make that checkpoint scannable with the `KNOWN`, `UNCLEAR`, and `NEXT STEP` status badges described in [Interactive Discovery](./references/interactive-discovery.md). Keep the labels meaningful without color, and use them only when they help distinguish evidence from unresolved work.
 - Stop short of a recommendation when essential evidence, authority, or decision criteria are missing. Explain what is needed and why.
 - Do not force a long questionnaire when a useful first draft is possible.
 

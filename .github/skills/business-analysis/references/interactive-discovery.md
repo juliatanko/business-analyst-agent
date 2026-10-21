@@ -31,6 +31,24 @@ When discovery is about to turn into a recommendation, project plan, or implemen
 
 Do not turn the checkpoint into another questionnaire or a blanket stop. If only one decision blocks implementation, say so and continue with unaffected analysis. A plan may include discovery work to resolve uncertainty; distinguish that plan from a commitment to implement the unresolved scope.
 
+### Status Badges
+
+When a short visual checkpoint would help the user scan the conversation, use these labels:
+
+- `KNOWN` (green): facts explicitly provided by the user or supported by reviewed sources. Example badge: `<span style="background-color:#285a35;color:#d6f5dc">KNOWN</span>`.
+- `UNCLEAR` (amber): a material unknown, conflict, or unvalidated assumption that could affect the outcome. Example badge: `<span style="background-color:#66511f;color:#fff0b3">UNCLEAR</span>`.
+- `NEXT STEP` (blue): the single most useful next question or action, with a brief reason when it is not obvious. Example badge: `<span style="background-color:#244c70;color:#d5ecff">NEXT STEP</span>`.
+
+Use colored inline badges when the chat renderer supports HTML styles, but keep the label text visible so meaning does not depend on color. If styling is unsupported, use plain labels such as `[KNOWN]`, `[UNCLEAR]`, and `[NEXT STEP]`. Never mark an inference as known, and do not add empty categories just to complete a template.
+
+Example:
+
+`[KNOWN]` Requests arrive through email and support tickets.
+
+`[UNCLEAR]` The review owner and customer status updates are not yet established.
+
+`[NEXT STEP]` Who should own review of incoming requests? That determines whether the intake process needs routing or only visibility.
+
 ## Question Round Format
 
 Keep each turn concise, natural, and focused on one question. Do not add a routine current-state recap, a “Question:” heading, or a preview of later questions. Add a brief rationale or options only when they make the exchange clearer. Never present a recommendation as the presumed answer or make agreement the default.
