@@ -35,19 +35,19 @@ Do not turn the checkpoint into another questionnaire or a blanket stop. If only
 
 When a short visual checkpoint would help the user scan the conversation, use these labels:
 
-- `KNOWN` (green): facts explicitly provided by the user or supported by reviewed sources. Example badge: `<span style="background-color:#285a35;color:#d6f5dc">KNOWN</span>`.
-- `UNCLEAR` (amber): a material unknown, conflict, or unvalidated assumption that could affect the outcome. Example badge: `<span style="background-color:#66511f;color:#fff0b3">UNCLEAR</span>`.
-- `NEXT STEP` (blue): the single most useful next question or action, with a brief reason when it is not obvious. Example badge: `<span style="background-color:#244c70;color:#d5ecff">NEXT STEP</span>`.
+- `🟩 KNOWN`: facts explicitly provided by the user or supported by reviewed sources.
+- `🟨 UNCLEAR`: a material unknown, conflict, or unvalidated assumption that could affect the outcome.
+- `🟦 NEXT STEP`: the single most useful next question or action, with a brief reason when it is not obvious.
 
-Use colored inline badges when the chat renderer supports HTML styles, but keep the label text visible so meaning does not depend on color. If styling is unsupported, use plain labels such as `[KNOWN]`, `[UNCLEAR]`, and `[NEXT STEP]`. Never mark an inference as known, and do not add empty categories just to complete a template.
+Use the colored square markers with their text labels; do not use HTML or CSS for these badges because chat renderers may display the markup literally. The text labels preserve meaning for screen readers and when color is unavailable. Never mark an inference as known, and do not add empty categories just to complete a template.
 
 Example:
 
-`[KNOWN]` Requests arrive through email and support tickets.
+🟩 **KNOWN** Requests arrive through email and support tickets.
 
-`[UNCLEAR]` The review owner and customer status updates are not yet established.
+🟨 **UNCLEAR** The review owner and customer status updates are not yet established.
 
-`[NEXT STEP]` Who should own review of incoming requests? That determines whether the intake process needs routing or only visibility.
+🟦 **NEXT STEP** Who should own review of incoming requests? That determines whether the intake process needs routing or only visibility.
 
 ## Question Round Format
 
